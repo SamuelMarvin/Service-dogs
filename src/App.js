@@ -1,9 +1,10 @@
 import './App.css';
+import NavBar from './components/navBar'
 
 function App() {
   return (
     <div className="App">
-      <nav className='navBar'>header</nav>
+      <NavBar/>
       <div className='mainContent'>main</div>
       <footer className='footer'>footer</footer>
     </div>
